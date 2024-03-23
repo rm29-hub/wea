@@ -1,0 +1,166 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+.sectionOne{
+    display: flex;
+    padding: 5rem;
+    padding-top: 10rem;
+    font-size: 20px;
+    background-image: url('../images/bgbg.png');
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 70%;
+    margin: 0 10%;
+}
+.sectionTwo{
+    display: flex;
+    padding: 5rem;
+    margin: 0 10%;
+}
+.titleTwo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: 500;
+    position: absolute;
+    margin-left: 25rem;
+} 
+.projectOne,.projectTwo,.projectThree {
+    padding-top: 10%;
+    margin: 10px;
+    width: fit-content;
+}
+button{
+    margin-top: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: 4px solid rgb(15, 15, 215);
+    box-shadow: 5px 5px 2px rgb(0,0,0);
+
+    transition-property: transform;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+.classInfo button{
+    width: 30%;
+}
+button:hover{
+    transform: translate(-10px)
+}
+.girl{
+   width: 50%;
+   height: 50%;
+   margin-right: 8%;
+   padding-top: 0;
+}
+.girl img{
+    border-bottom-left-radius: 100px;
+   border-bottom-right-radius: 200px;
+}
+.pOnePic img, .pTwoPic img, .pThreePic img{
+    margin-bottom: 1rem;
+    width: 400px;
+    height: 200px;
+}
+.classInfo{
+    margin-top: 15%;
+    padding-right: 15rem;
+}
+.title{
+    padding-bottom: 2rem;
+    font-size: 3rem;
+}
+header{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: black;
+    color: white;
+    font-size:20px;
+    padding: 2rem;
+    font-weight: 300;
+    position: fixed;
+    width: 100%;
+}
+.logo{
+    float: left;
+    color: white;
+    font-size:50px;
+    margin: 35px;
+}
+nav {
+    text-decoration: none;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: right;
+    gap: 1rem;
+}
+
+nav ul li {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: inline;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    padding: 8px 16px;
+}
+
+a:hover {
+    border-color: rgb(48, 135, 250);
+}
+.logo{
+    float: left;
+    color:  rgb(0, 81, 255);
+    font-size:30px;
+    margin: -8px 8px;
+}
+.logospan{
+    color: white;
+}
+
+@media screen and (max-width: 992px) {
+    .sectionOne, .sectionTwo{
+        padding: 2rem;
+        padding-top: 6rem;
+    }
+
+    .titleTwo{
+        margin-left: 5rem;
+    }
+
+    .classInfo{
+        padding-right: 5rem;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .sectionOne, .sectionTwo{
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .titleTwo{
+        position: static;
+        margin-left: 0;
+    }
+
+    .classInfo{
+        padding-right: 0;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    .sectionOne, .sectionTwo{
+        padding: 1rem;
+        padding-top: 4rem;
+    }
+}
