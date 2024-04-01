@@ -8,8 +8,8 @@ const mainData = {
     para2:"Our puppies are just waiting to become part of your family and fill your home with joy!",
     image: "shih tzu2.jpg",
     aboutBtn: "About Us",
-    contactBtn:"Contact",
-    viewBtn: "View Puppies"
+    contactBtn:"View Puppies",
+    viewBtn: "Contact"
 }
 
 const {title1, title2, para1, para2, aboutBtn, contactBtn, viewBtn, image} = mainData
