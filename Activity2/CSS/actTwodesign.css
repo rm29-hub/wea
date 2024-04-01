@@ -116,18 +116,18 @@ body{
     font-family: 'Poppins', sans-serif;
 }
 .sectionOne{
-    height: 100vh;
+    height: 100%;
     display: flex;
     padding: 5%;
     padding-top: 10rem;
-    font-size: 25px;
+    font-size: 20px;
     /* background-image: url('../images/bgbg.png');
     background-position-x: right;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: 60%; */
     margin: 0 10%;
-    /* background-color: rgba(5, 109, 246, 0.306); */
+    background-color: rgba(5, 109, 246, 0.306);
     /* background: linear-gradient(to bottom right,rgba(5, 109, 246, 0.306), white, white, rgba(5, 109, 246, 0.306)); */
 
 }
@@ -135,7 +135,7 @@ body{
     padding-left: 5rem;
 }
 .sectionTwo{
-    /* border: 2px solid rgba(5, 109, 246, 0.306); */
+    border: 2px solid rgba(5, 109, 246, 0.306);
     height: 100vh;
     font-size: 20px ;
     display: flex;
@@ -160,7 +160,9 @@ body{
     color: transparent;
 }
 .projectOne,.projectTwo,.projectThree {
-    height: 105%;
+    background-color: rgba(5, 109, 246, 0.306); 
+    border-radius: 20px;
+    height: 125%;
     border-radius: 5rem;
     padding: 3rem;
     margin: 1%;
@@ -233,8 +235,8 @@ button:hover{
 }
 .title{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding-bottom: 5rem;
-    font-size: 6rem;
+    padding-bottom: 5rem; 
+    font-size: 5rem;
     background: linear-gradient(to right,
     rgb(0, 0, 0),
     rgb(0, 85, 255)
@@ -243,7 +245,7 @@ button:hover{
     color: transparent;
 }
 
-/* @media (max-width:1285px) {
+@media (max-width:1285px) {
     .sectionOne, .sectionTwo{
         flex-direction: column;
         align-items: center;
@@ -252,7 +254,7 @@ button:hover{
         padding-left: 0;
     }
     .sectionOne{
-        height: 150vh;
+        height: 180vh;
     }
     .sectionOne .classInfo{
         font-size: 25px;
@@ -275,20 +277,23 @@ button:hover{
 
      .titleTwo{
         position: absolute;
-        top: 160vh;
+        top: 190%;
         left: 50%;
         transform: translateX(-50%); 
     }
     .projectOne,.projectTwo,.projectThree {
         background-color: rgba(5, 109, 246, 0.306);
-        height: 105%;
+        height: 200vh;
         border-radius: 5rem;
         padding: 3rem;
         font-size: 20px;
         margin: 10px;
         width: fit-content;
     }
-    
+    .projectThree .classPThree button, .projectOne .classPOne button,
+    .projectTwo .classPTwo button{
+        left: 30rem;
+    }
     #menu-icon {
         display: block;
     }
@@ -319,30 +324,33 @@ button:hover{
         border-radius:  0.5rem;
         border-bottom: 0.5rem solid var(--main-color);
     }
-} */
-
-@media screen and (max-width: 1285px){
-    .projectOne p,.projectTwo p,.projectThree p{
-        font-size: 16px;
-    }
 }
+
 @media screen and (max-width: 992px) {
     .sectionOne, .sectionTwo{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 5rem;
-        padding-left: 0;
-    }
-    .sectionOne{
-        height: 120vh;
     }
     .sectionOne .classInfo{
         font-size: 20px;
     }
+    .classInfo button{
+        margin-top: 10%;
+        width: 40%;
+        padding: 15px;
+    }
+    .projectThree .classPThree button, .projectOne .classPOne button,
+    .projectTwo .classPTwo button{
+        left: 20rem;
+
+    }
+    .sectionOne{
+        height: 105%;
+    }
     .sectionTwo{
-        height: 210vh;
-        padding: 18% 5rem;
+        height: 220%;
+        padding: 24% 5rem;
     }
     .girl{
         width: 20%;
@@ -350,26 +358,27 @@ button:hover{
         padding-top: 5%;
      }
      .girl img{
-         width: 300%;
+         width: 500%;
      }
      .title{
         font-size: 4rem;
      }
-
      .titleTwo{
+        font-size: 2rem;
         position: absolute;
-        top: 130vh;
+        top: 140%;
         left: 50%;
         transform: translateX(-50%); 
     }
     .projectOne,.projectTwo,.projectThree {
-        height: 105%;
+        height: 120vh;
         border-radius: 5rem;
         padding: 3rem;
         font-size: 15px;
         margin: 10px;
+        margin-top: 35px;
         width: fit-content;
-    }
+    }  
     #menu-icon {
         display: block;
     }
@@ -407,17 +416,25 @@ button:hover{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 2rem;
-        padding-left: 0;
     }
     .sectionOne .classInfo{
         font-size: 20px;
     }
+    .classInfo button{
+        margin-top: 10%;
+        width: 40%;
+        padding: 15px;
+    }
+    .projectThree .classPThree button, .projectOne .classPOne button,
+    .projectTwo .classPTwo button{
+        left: 11rem;
+
+    }
     .sectionOne{
-        height: 105vh;
+        height: 105%;
     }
     .sectionTwo{
-        height: 220vh;
+        height: 220%;
         padding: 24% 5rem;
     }
     .girl{
@@ -429,23 +446,24 @@ button:hover{
          width: 300%;
      }
      .title{
-        font-size: 3rem;
+        font-size: 4rem;
      }
      .titleTwo{
         font-size: 2rem;
         position: absolute;
-        top: 110vh;
+        top: 140%;
         left: 50%;
         transform: translateX(-50%); 
     }
     .projectOne,.projectTwo,.projectThree {
-        height: 105%;
+        height: 75vh;
         border-radius: 5rem;
         padding: 3rem;
         font-size: 15px;
         margin: 10px;
+        margin-top: 35px;
         width: fit-content;
-    }
+    }  
     #menu-icon {
         display: block;
     }
@@ -483,17 +501,25 @@ button:hover{
         flex-direction: column;
         align-items: center;
         text-align: center;
-        padding: 2rem;
-        padding-left: 0;
     }
     .sectionOne .classInfo{
         font-size: 20px;
     }
+    .classInfo button{
+        margin-top: 10%;
+        width: 40%;
+        padding: 15px;
+    }
+    .projectThree .classPThree button, .projectOne .classPOne button,
+    .projectTwo .classPTwo button{
+        left: 11rem;
+
+    }
     .sectionOne{
-        height: 105vh;
+        height: 105%;
     }
     .sectionTwo{
-        height: 220vh;
+        height: 220%;
         padding: 24% 5rem;
     }
     .girl{
@@ -505,23 +531,24 @@ button:hover{
          width: 300%;
      }
      .title{
-        font-size: 3rem;
+        font-size: 4rem;
      }
      .titleTwo{
         font-size: 2rem;
         position: absolute;
-        top: 110vh;
+        top: 140%;
         left: 50%;
         transform: translateX(-50%); 
     }
     .projectOne,.projectTwo,.projectThree {
-        height: 105%;
+        height: 120vh;
         border-radius: 5rem;
         padding: 3rem;
         font-size: 15px;
         margin: 10px;
+        margin-top: 35px;
         width: fit-content;
-    }
+    }  
     #menu-icon {
         display: block;
     }
