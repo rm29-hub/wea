@@ -251,11 +251,16 @@ main {
 
 
 @media screen and (max-width: 576px) {
-
-    main {
+main {
         padding: 5px;
     }
-
+    .nav2 li a{
+        font-size: 16px;
+    }
+    .nav2{
+        left: 0;
+        padding: 0;
+    }
     #container {
         max-width: 400px;
         padding: 5px;
@@ -269,6 +274,23 @@ main {
     .hlogo {
         width: 60px;
         margin-right: 5px;
+    }
+
+    #containerL, #containerR, #containerS {
+        padding-top: 15%;
+        margin-left: 20%;
+    }
+    #Leaderboard, #rules, #fcap {
+        max-width: 90%;
+    }
+    #fcap .tournament-image img {
+        width: 100%;
+        height: auto;
+    }
+    #table th,
+    #table td {
+        padding: 10px; 
+        font-size: 14px;
     }
 }
 
@@ -313,10 +335,6 @@ main {
     #table td {
         padding: 10px; 
         font-size: 14px;
-    }
-
-    .content-table tbody tr:last-of-type {
-        border-bottom: none; /* Removed bottom border from last table row */
     }
 }
 .footer{
