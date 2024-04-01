@@ -4,40 +4,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>MAQUILING</title>
+    <title>MAQUILING_MY COMPILATION OF ACTIVTIES</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    <header>
-        <h1 class="logo">W<span class="logospan">M.</span></h1>
-        <nav>
-            <ul id="hover">
-                <li><a href="index.html">WHAT I LEARNED</a></li>
-                <li><a href="Activity1/index.html">ACTIVITY 1</a></li>
-                <li><a href="Activity2/index.html">ACTIVITY 2</a></li>
-                <li><a href="../Activity3/index.html">ACTIVITY 3</a></li>
-            </ul>
+    <header class="header">
+        <a href="index.html" class="logo">W<span class="logospan">M</span>.</a>
+
+        <i class="fa-solid fa-bars" id="menu-icon"></i>
+
+        <nav class="navbar">
+            <a href="index.html" class="active">Home</a>
+            <a href="Activity1/index.html">ACTIVITY 1</a>
+            <a href="Activity2/index.html">ACTIVITY 2</a>
+            <a href="Activity3/index.html">ACTIVITY 3</a>
         </nav>
     </header>
-    <div class="main">
-        <div class="bg1">
-            <h1 class="name">Hi! I'm <span class="namespan">Wea Emilyn R. Maquiling</span>, a GCC student</h1><br/>
-            <h1 class="title">MY COMPILATION OF ACTIVITY</h1>
+
+    <nav class="nav2">
+        <a href="#learnings">Learned</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section class="home" id="home">
+        <div class="home-img">
+            <img src="images/red2.jpg" alt="">
         </div>
-        <div class="sec1">
-            <h2 class="act1Title">ACTIVITY 1</h2>
-            <p>In this activity,I encountered export/import, objects, destructuring, template literals, and arrow functions. These concepts introduced various ways to share code, organize data, and streamline coding practices, offering a comprehensive understanding of modern JavaScript development techniques.However, there's still room for deeper understanding.</p><br/>
-            <p>I found it challenging in this activity to grasp arrow functions, especially when working with the image.js file.  It seems I misunderstood certain aspects of their implementation or usage.</p><br/>
+        <div class="home-content">
+            <h1>Hi, It's <span>Wea Maquiling</span></h1>
+            <h3 class="typing-text">I'm <span></span></h3>
+            <p>This serves as  <span> My Compilation of Activities </span>  in Event-Driven Programming, together with my learning in Web Systems and Technologies. These activities are the projects we've completed this second semester, demonstrating the current depth of my understanding across both courses.</p>
+
+            <div class="btn-box">
+                <a href="#about">About Me</a>
+                <a href="#learnings">What I learned</a>
+                <a href="#contact">Contact Me</a>
+            </div>
+
+            <div class="social-icon">
+                <a href="https://www.linkedin.com/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/rm29-hub" target="_blank"><i class="fa-brands fa-github"></i></a>
+                <a href="https://www.facebook.com/weaemilyn.maquiling?mibextid=ZbWKwL" target="_blank"><i class="fa-brands fa-facebook"></i></a>
+                <a href="https://www.tiktok.com/login" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+            </div>
         </div>
-        <div class="sec2">
-            <h2 class="act2Title">ACTIVITY 2</h2>
-            <p> In this activity, I learned about export and import, object, destructuring, template literal, and arrow function. Export/import helps us share code between different JavaScript files. The export will let you bring out functions or data from your js file to your main js file, and the main js file will accept it by using import. Objects are similar to arrays but use curly brackets to hold different types of data. Destructuring is one way to access the object, other way to access it is using dot notation. Template literals let us create dynamic strings easily. Lastly, arrow function it is feature of ES6, it is shorter than the regular function and it has arrow "=>" sign.</p><br/>
-            <p> What I found challenging in this activity was understanding arrow functions, especially when working with the image.js file but our second discussion cleared things up for me. The picture on the left is the visual guide for how the activity should appear.</p>
+    </section>
+
+    <section class="about" id="about">
+        <div class="about-content">
+            <h2 class="heading">About<span>Me</span></h2>
+            <p>
+                Hi! I'm Wea Emilyn R. Maquiling, 20 years of age, the youngest among four siblings. Residing in Brgy. 19, Zone 3. I'm currently in my second academic year pursuing a Bachelor of Science in Information Technology (BSIT) at Gingoog City Colleges. Outside of my academic pursuits, you'll often find me immersed in various activities during my spare time, such as indulging in art and painting, listening to music, watching movies, reading.
+                <span id="dots"> </span>
+                <span id="more">
+                    <br/><br/>
+                    Talking about education, my educational journey began at Don Restituto Baol Central School from 2010 to 2016. There, I was part of the Special Program in the Arts (SPA), focusing on creative writing and vocal arts as part of the first batch of SPA students. This experience laid the foundation for my passion for the arts and ignited my desire for further exploration in this field.<br/><br/>
+                    Then, I went to Gingoog City Comprehensive National High School from 2016 to 2020, I continued my engagement in the arts as a SPA student, with a specific focus on visual art. During this period, I actively participated in diverse learning experiences, further nurturing my artistic talents and expanding my horizons.<br/><br/>
+
+                    Remaining at Gingoog City Comprehensive National High School for my Senior High School studies from 2020 to 2022, I pursued the Humanities and Social Sciences (HUMSS) track. This phase of my education provided me with a well-rounded understanding of various subjects and helped sharpen my critical thinking skills.<br/><br/>
+
+                    Now, I'm currently a 2nd-year Bachelor of Science in Information Technology (BSIT) student at Gingoog City Colleges. Despite diverging paths, each step serves its purpose. It's not about following the conventional route; rather, it's about the valuable lessons learned and personal growth experienced along the way.
+                </span>
+            </p>
+            <button onclick="myFunction()" id="myBtn">Read more</button>
         </div>
-        <div class="sec3">
-            <h2 class="act3Title">ACTIVITY 3</h2>
-            <p> In this activity, I learned  how to organize HTML file to create different sections within the application, such as the Leaderboard, Rules, and Game Setup. Exploring CSS techniques to design and style. </p><br/>
-            <p> I found ensuring consistency in the design across all sections challenging.</p>
+    </section>
+    <section class="learnings" id="learnings">
+        <h2 class="heading">WhatI<span>Learned</span></h2>
+
+        <div class="learning-container">
+            <div class="learning-box">
+                <div class="learning-info">
+                    <h4>ACTIVITY 1</h4>
+                    <p>In this activity,I encountered export/import, objects, destructuring, template literals, and arrow functions. These concepts introduced various ways to share code, organize data, and streamline coding practices, offering a comprehensive understanding of modern JavaScript development techniques.However, there's still room for deeper understanding. <br/> I found it challenging in this activity to grasp arrow functions, especially when working with the image.js file.  It seems I misunderstood certain aspects of their implementation or usage but our second discussion cleared things up for me.</p><br/>
+                </div>
+            </div>
+            <div class="learning-box">
+                <div class="learning-info">
+                    <h4>ACTIVITY 2</h4>
+                     <p> In this activity, I learned about export and import, object, destructuring, template literal, and arrow function. Export/import helps us share code between different JavaScript files. The export will let you bring out functions or data from your js file to your main js file, and the main js file will accept it by using import. Objects are similar to arrays but use curly brackets to hold different types of data. Destructuring is one way to access the object, other way to access it is using dot notation. Template literals let us create dynamic strings easily. Lastly, arrow function it is feature of ES6, it is shorter than the regular function and it has arrow "=>" sign. <br/></p>
+                </div>
+            </div>
+            <div class="learning-box">
+                <div class="learning-info">
+                    <h4>ACTIVITY 3</h4>
+                    <p> In this activity, I learned  how to organize HTML file to create different sections within the application, such as the Leaderboard, Rules, and Game Setup. Exploring CSS techniques to design and style. <br/><br/>I found ensuring consistency in the design across all sections challenging.</p>
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+    <section class="contact" id="contact">
+        <h2 class="heading">Contact<span>Me</span></h2>
+        
+            <form action="#">
+                <div class="input-box">
+                    <input type="text" placeholder="Full Name">
+                    <input type="email" placeholder="Email Address">
+                </div>
+
+                <div class="input-box">
+                    <input type="number" placeholder="Mobile Number">
+                    <input type="text" placeholder="Email Subject">
+                </div>
+                <textarea name="" id="" cols="30" rows="10" placeholder="Your Message"></textarea>
+                <input type="submit" value="Send Message" class="btn">
+            </form>
+    </section>
+    <footer class="footer">
+        <!-- <div class="social">
+            <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="#"><i class="fa-brands fa-github"></i></a>
+            <a href="#"><i class="fa-brands fa-facebook"></i></a>
+            <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+        </div> -->
+        <p class="copyright">
+            @ wea maquiling | All Right Reserved
+        </p>
+        <div class="footer-iconTop">
+            <a href="#home"><i class="fa-solid fa-angle-up"></i></a>
+        </div>
+    </footer>
+    <script src="script.js"></script>
 </body>
 </html>
